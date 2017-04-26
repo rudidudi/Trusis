@@ -1,0 +1,34 @@
+IDEE DI BONUS/MALUS DA IMPLEMENTARE PER I PUNTEGGI
+
+UMANO
+ +vota cattivo
+ +vota trusis
+TRUSIS
+ +vota buono
+ +uccidi buono
+ -uccidi cattivo
+SPAZZINO
+ +spazza trusis
+ +spazza naufrago
+BECCHINO
+ +trova cattivo
+MACELLAIO
+ +vota buono
+PARROCO
+ +parrocata
+ORACOLO
+ +sonda buono speciale
+ +sonda trusis
+PALADINO
+ +resuscita buono
+ -resuscita cattivo
+KAMIKAZE
+ +uccidi buono
+ -uccidi cattivo
+PROFANATRICE
+ -trova speciale buono
+NAUFRAGO
+ +rimani vivo
+ILLUSIONISTA
+ +vota buono
+ +fai pareggiare
