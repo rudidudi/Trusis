@@ -66,5 +66,20 @@ public class ExpSettings
         });
         exponentMap = Collections.unmodifiableMap(aMap);
     }
+    
+    public static double getGameModifier(int gamelvl, int playerlvl){
+        int value= playerlvl-gamelvl;
+        //TODO convert to switch statement
+        return (value==-1)?1.02D:
+               (value==-2)?1.05D:
+               (value==-3)?1.09D:
+               (value==-4)?1.15D: 
+               (value==-5)?1.25D:
+               (value==1)?0.98D:
+               (value==2)?0.95D:
+               (value==3)?0.91D:
+               (value==4)?0.85D:
+               (value==5)?0.75D:1D;      
+    }
 
 }

@@ -1,34 +1,36 @@
 IDEE DI BONUS/MALUS DA IMPLEMENTARE PER I PUNTEGGI
 
 UMANO
- +vota cattivo
- +vota trusis
+ +vota cattivo 5%
+ +vota trusis 7,5%
 TRUSIS
- +vota buono
- +uccidi buono
- -uccidi cattivo
+ +vota buono 5%
+ +uccidi buono 5%
+ -uccidi cattivo -5%
 SPAZZINO
- +spazza trusis
- +spazza naufrago
+ +spazza trusis 10%
+ +spazza naufrago 10%
+ -spazza speciale buono -5%
 BECCHINO
- +trova cattivo
+ +trova cattivo 10%
 MACELLAIO
- +vota buono
+ +vota umano 5%
+ +vota speciale buono 7,5%
 PARROCO
- +parrocata
+ +parrocata 15%
 ORACOLO
- +sonda buono speciale
- +sonda trusis
+ +sonda buono speciale 10%
+ +sonda trusis 5%
 PALADINO
- +resuscita buono
- -resuscita cattivo
+ +resuscita buono +20%
+ -resuscita cattivo -10%
 KAMIKAZE
- +uccidi buono
- -uccidi cattivo
+ +uccidi buono +20%
+ -uccidi cattivo -10%
 PROFANATRICE
- -trova speciale buono
+ +trova speciale buono 10%
 NAUFRAGO
- +rimani vivo
+ +rimani vivo 5%
 ILLUSIONISTA
- +vota buono
- +fai pareggiare
+ +vota buono 5%
+ +fai pareggiare 15%

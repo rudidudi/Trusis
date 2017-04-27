@@ -17,7 +17,7 @@ public class ExpDefiner extends ExpSettings {
         xpMap = Collections.unmodifiableMap(aMap);
     }
     
-    //MAP that defines how many games a player have to do to level up
+    //base map for defines the exp/game
     public static Map<Integer, Double> levelUpGamesMap;
     static{
         Map<Integer, Double> aMap = new LinkedHashMap<Integer,Double>();
@@ -32,6 +32,21 @@ public class ExpDefiner extends ExpSettings {
         levelUpGamesMap = Collections.unmodifiableMap(aMap);
         //override first and second argument.
 
+    }
+    
+    //MAP that defines how much exp is needed for level up
+    public static Map<Integer, Integer> xpMapTot;
+    static{
+        Map<Integer, Integer> aMap = new LinkedHashMap<Integer,Integer>();
+        exponentMap.forEach((k,v)->{
+            
+            Integer exp = (int) ExpUtils.round((ExpSettings.XP_FACTOR*(Math.pow(k,v))),0);
+            if(k>1){
+            exp = (int) ExpUtils.round((ExpSettings.XP_FACTOR*(Math.pow(k,v))),0)+aMap.get(k-1);
+            }
+            aMap.put(k, exp);
+        });     
+        xpMapTot = Collections.unmodifiableMap(aMap);
     }
     
     //MAP that defines how much exp you get for a game
