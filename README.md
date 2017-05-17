@@ -13,6 +13,7 @@ Poteri da assegnare ad un personaggio, inizialmente ogni potere è pensato per u
 ### TODO
 
 * VOTI
+* CLASSE CON CONSTANTS
 * IMPLEMENTAZIONE GIORNO/NOTTE
 * TEST UTILIZZO POTERI
 * TRADUZIONE CODICE IN INGLESE
