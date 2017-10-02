@@ -21,3 +21,7 @@ Poteri da assegnare ad un personaggio, inizialmente ogni potere è pensato per u
 * IMPLEMENTAZIONE TUTTI I POTERI
 
 * TUTTO IL RESTO
+
+### Framework Fronted
+AdminLTE-master_UNCHANGED NON CAMBIARE.
+fare una copia della cartella per fare le prove.
